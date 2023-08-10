@@ -1,0 +1,25 @@
+.map-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  svg {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  path {
+    fill: gray;
+    transition: fill 0.3s; /* Adding a transition for smooth color change */
+  }
+  
+  path:hover {
+    fill: rgb(245, 123, 8);
+  }
+  
+  .country-info {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
